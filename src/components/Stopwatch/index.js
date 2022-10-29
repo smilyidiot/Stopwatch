@@ -69,6 +69,7 @@ class Stopwatch extends Component {
                 className="start button"
                 type="button"
                 onClick={this.onStart}
+                disabled={status}
               >
                 Start
               </button>
